@@ -3,11 +3,11 @@
 s = "a1b2cde3~g45hi6"
 a = ['a',1,'b',2,'c','d','e',3,'~','g',4,5,'h','i',6]
 
-def changeNum():
+def changeNum(a):
     for i in range(len(a)):
         if i%2 !=0  and type(a[i]) is int:
             a[i] = '*'
-    print(a)
+    return a
 
 def cnvt(s):
     l = list(s)
@@ -17,5 +17,5 @@ def cnvt(s):
     return ''.join(l)
 
 if __name__ == "__main__":
-    # changeNum()
-    print(cnvt(s))
+     print(changeNum(a))
+    # print(cnvt(s))
