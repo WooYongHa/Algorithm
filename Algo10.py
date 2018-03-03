@@ -4,12 +4,3 @@ Spiral Array
 '''
 # lv3
 
-arr = [][]
-
-def spiral(a, b):
-    for i in range(a):
-        for j in range(b):
-            arr.append(j)
-    return arr
-
-print(spiral(4,5))
