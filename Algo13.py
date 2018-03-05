@@ -38,4 +38,4 @@ def One (n,m=1,k=0,l=0):
 
 if __name__ == '__main__':
     # minNumber(9901)
-    One(9901)
+    One(17)
