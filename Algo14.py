@@ -12,6 +12,6 @@ def insertionSort(arr):
                 arr[i], arr[j] = arr[j], arr[i]
     return arr
 
-if __name__ == '__main__':
-    print(insertionSort(a))
 
+if __name__ == '__main__':
+    insertionSort(a)
