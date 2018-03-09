@@ -8,7 +8,7 @@ A사무실에는 특정일자의 출퇴근 시간이 기록된 거대한 로그�
 '''
 #lv2
 
-'''
+
 def time2sec(t):
     h, m, s = map(int, t.split(":"))
     return h*60*60+m*60+s
@@ -30,7 +30,7 @@ def load(inputs):
 
 def howmany(time):
     sec = time2sec(time)
-    print time, manysheet[sec]
+    print(time, manysheet[sec])
 
 input = [
 '09:12:23 11:14:35',
@@ -41,5 +41,5 @@ input = [
 if __name__ == "__main__":
     load(input)
     howmany('14:34:55')
-'''
+
 
