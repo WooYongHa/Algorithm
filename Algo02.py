@@ -2,13 +2,17 @@
 # lv1
 
 s = [1, 60, 4, 8, 13, 17, 20]
-k = []
 
-for i in s:
-    for j in s:
-        num = abs(i-j)
-        if num != 0:
-            k.append(abs(i-j))
+def minDistance(arr):
+    k= []
 
-print(max(k))
+    for i in arr:
+        for j in arr:
+            num = abs(i-j)
+            if num != 0:
+                k.append(abs(i-j))
+    return max(k)
+
+if __name__ == '__main__':
+    print(minDistance(s))
 
